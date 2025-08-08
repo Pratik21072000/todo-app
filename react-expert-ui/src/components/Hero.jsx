@@ -1,10 +1,10 @@
 import React from 'react'
 
 const photos = [
-  'https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?q=80&w=600&auto=format&fit=crop',
-  'https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=600&auto=format&fit=crop',
-  'https://images.unsplash.com/photo-1517841905240-472988babdf9?q=80&w=600&auto=format&fit=crop',
-  'https://images.unsplash.com/photo-1544005313-94ddf0286df2?q=80&w=600&auto=format&fit=crop',
+  'https://placehold.co/600x900/222/FFF?text=Portrait+1',
+  'https://placehold.co/600x900/333/FFF?text=Portrait+2',
+  'https://placehold.co/600x900/444/FFF?text=Portrait+3',
+  'https://placehold.co/600x900/555/FFF?text=Portrait+4',
 ]
 
 export default function Hero() {
