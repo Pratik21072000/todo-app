@@ -8,14 +8,14 @@ export default function Features() {
 
         <div className="row g-4 align-items-stretch mb-4">
           <div className="col-lg-5">
-            <div className="feature-tile h-100">
-              <p className="mb-2">Available Session Lengths</p>
-              <div className="mb-3">
+            <div className="feature-tile h-100 d-flex flex-column">
+              <p className="mb-3">Available Session Lengths</p>
+              <div className="mb-4">
                 <span className="badge bg-light text-dark badge-pill me-2">Regular - 15 min</span>
                 <span className="badge bg-secondary badge-pill me-2">Popular - 30 min</span>
                 <span className="badge bg-dark badge-pill">Extra - 45 min</span>
               </div>
-              <img className="img-fluid rounded-20 img-shadow" src="https://placehold.co/640x200/222/FFF?text=1.5hr+2hr+2.5hr+3hr" alt="session lengths" />
+              <img className="img-fluid rounded-20 img-shadow mt-auto" src="https://placehold.co/640x200/222/FFF?text=1.5hr+2hr+2.5hr+3hr" alt="session lengths" />
             </div>
           </div>
           <div className="col-lg-3">
@@ -41,7 +41,7 @@ export default function Features() {
           </div>
         </div>
 
-        <div className="row g-4">
+        <div className="row g-4 align-items-start">
           <div className="col-lg-5">
             <h5 className="mb-2">Offer multiple call durations</h5>
             <p className="text-muted-90 small mb-0" style={{fontSize:'0.95rem'}}>Pick & choose which call durations make sense for you. Offer sessions ranging from 15 min to 3 hours</p>

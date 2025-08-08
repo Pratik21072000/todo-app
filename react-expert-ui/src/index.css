@@ -35,7 +35,7 @@ body { margin: 0; font-family: 'EuropaGroteskSH', system-ui, Arial, sans-serif; 
 .how-card { background:#141414; border:1px solid #232323; border-radius:10px; padding:40px 28px; }
 
 /* FEATURES */
-.feature-tile { background:#101010; border:1px solid #222; border-radius:8px; padding:24px; min-height: 240px; }
+.feature-tile { background:#101010; border:1px solid #222; border-radius:8px; padding:24px; min-height: 260px; }
 .badge-pill { border-radius:999px; }
 
 /* MEDIA */
@@ -53,5 +53,6 @@ body { margin: 0; font-family: 'EuropaGroteskSH', system-ui, Arial, sans-serif; 
 .overlap-wrap { position: relative; overflow: visible; }
 .mini-img { position: absolute; background-position: center; background-size: cover; border:1px solid #222; border-radius: 8px; box-shadow: 0 16px 40px rgba(0,0,0,.65); z-index: 2; }
 .mini-big { width: 46%; aspect-ratio: 4 / 3; }
-.mini-over-top-right { top: -28px; right: -32px; transform: rotate(2deg); }
-.mini-over-bottom-left { bottom: -32px; left: -28px; transform: rotate(-2deg); }
+/* centered on side middle, no slant */
+.mini-center-right { top: 50%; right: -32px; transform: translateY(-50%); }
+.mini-center-left  { top: 50%; left:  -28px; transform: translateY(-50%); }

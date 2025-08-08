@@ -26,7 +26,7 @@ export default function StartEarning() {
                   <div className="bg-black rounded-3 p-2 small text-muted-90 border border-1 border-secondary">Today • 3:00 PM – 3:30 PM</div>
                 </div>
               </div>
-              <div className="mini-img mini-big mini-over-top-right" style={{ backgroundImage: "url('https://images.unsplash.com/photo-1521579771033-2305f7a26d3b?q=80&w=600&auto=format&fit=crop')" }} />
+              <div className="mini-img mini-big mini-center-right" style={{ backgroundImage: "url('https://images.unsplash.com/photo-1521579771033-2305f7a26d3b?q=80&w=600&auto=format&fit=crop')" }} />
             </div>
           </div>
         </div>
@@ -42,7 +42,7 @@ export default function StartEarning() {
                   <div className="opacity-75">Repeat every Tuesday?</div>
                 </div>
               </div>
-              <div className="mini-img mini-big mini-over-bottom-left" style={{ backgroundImage: "url('https://images.unsplash.com/photo-1478147427282-58a87a120781?q=80&w=600&auto=format&fit=crop')" }} />
+              <div className="mini-img mini-big mini-center-left" style={{ backgroundImage: "url('https://images.unsplash.com/photo-1478147427282-58a87a120781?q=80&w=600&auto=format&fit=crop')" }} />
             </div>
           </div>
           <div className="col-lg-6 order-lg-2 order-1">
