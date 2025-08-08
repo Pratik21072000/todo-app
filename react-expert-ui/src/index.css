@@ -17,6 +17,7 @@ body { margin: 0; font-family: 'EuropaGroteskSH', system-ui, Arial, sans-serif; 
 .section { padding: 88px 0; }
 .section-title { font-weight: 400; letter-spacing: -0.02em; }
 .text-muted-90 { color: var(--muted) !important; }
+.desc-lg { font-size: 1.15rem; line-height: 1.7; }
 
 /* HERO */
 .hero-bg { position: relative; min-height: 88vh; overflow: hidden; }
@@ -34,7 +35,7 @@ body { margin: 0; font-family: 'EuropaGroteskSH', system-ui, Arial, sans-serif; 
 .how-card { background:#141414; border:1px solid #232323; border-radius:10px; padding:40px 28px; }
 
 /* FEATURES */
-.feature-tile { background:#101010; border:1px solid #222; border-radius:8px; padding:24px; }
+.feature-tile { background:#101010; border:1px solid #222; border-radius:8px; padding:24px; min-height: 240px; }
 .badge-pill { border-radius:999px; }
 
 /* MEDIA */
@@ -43,12 +44,14 @@ body { margin: 0; font-family: 'EuropaGroteskSH', system-ui, Arial, sans-serif; 
 
 /* START EARNING mocks */
 .mock-photo { position: relative; border-radius: 10px; overflow: visible; background-position: center; background-size: cover; min-height: 360px; }
+.mock-photo-portrait { aspect-ratio: 3 / 4; width: 62%; min-height: unset; }
 .overlay-card { position: absolute; right: 24px; bottom: 24px; width: 50%; background:#0f0f0f; color:#fff; border:1px solid #222; border-radius: 8px; box-shadow: 0 18px 60px rgba(0,0,0,.5); padding: 16px; }
 .overlay-schedule { position: absolute; right: 16px; bottom: 16px; background:#0b0b0b; color:#fff; border:1px solid #222; border-radius: 8px; padding: 14px 16px; box-shadow: 0 16px 50px rgba(0,0,0,.6); }
 .overlay-schedule .dot { display:inline-block; width:10px; height:10px; border-radius:50%; background:#fff; opacity:.3; margin-right:4px; }
 
-/* Overlap minis around big image */
+/* Overlap single big image */
 .overlap-wrap { position: relative; overflow: visible; }
-.mini-img { position: absolute; width: 180px; height: 120px; background-position: center; background-size: cover; border:1px solid #222; border-radius: 8px; box-shadow: 0 12px 30px rgba(0,0,0,.6); }
-.mini-top-left { top: -24px; left: -24px; transform: rotate(-3deg); }
-.mini-bottom-right { bottom: -28px; right: -28px; transform: rotate(2deg); }
+.mini-img { position: absolute; background-position: center; background-size: cover; border:1px solid #222; border-radius: 8px; box-shadow: 0 16px 40px rgba(0,0,0,.65); z-index: 2; }
+.mini-big { width: 46%; aspect-ratio: 4 / 3; }
+.mini-over-top-right { top: -28px; right: -32px; transform: rotate(2deg); }
+.mini-over-bottom-left { bottom: -32px; left: -28px; transform: rotate(-2deg); }
