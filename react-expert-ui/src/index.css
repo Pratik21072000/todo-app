@@ -26,7 +26,8 @@ body { margin: 0; font-family: 'EuropaGroteskSH', system-ui, Arial, sans-serif; 
 
 /* CARDS */
 .card-soft { background:#f6f6f6; border-radius:16px; padding:28px; }
-.icon-circle { width:64px; height:64px; border-radius:50%; background:#e9e9e9; display:flex; align-items:center; justify-content:center; margin:0 auto 12px; color:#000; font-size:28px; }
+.icon-circle { width:72px; height:72px; border-radius:50%; background:#ffffff; border:1px solid #e6e6e6; display:flex; align-items:center; justify-content:center; margin:0 auto 12px; color:#000; font-size:30px; }
+.how-card { background:#f3f3f3; border-radius:20px; padding:40px 28px; }
 
 /* FEATURES */
 .feature-tile { background:#fff; border:1px solid #e5e5e5; border-radius:18px; padding:24px; }
