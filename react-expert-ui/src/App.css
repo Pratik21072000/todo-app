@@ -1,0 +1,3 @@
+/* minimal reset for Vite demo removal */
+#root { max-width: 100%; margin: 0; padding: 0; }
+.logo, .card, .read-the-docs { display: none; }

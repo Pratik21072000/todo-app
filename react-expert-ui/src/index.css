@@ -1,0 +1,37 @@
+@font-face {
+  font-family: 'EuropaGroteskSH';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url('https://cdn.jsdelivr.net/gh/justinschroeder/fonts/europa-grotesk/EuropaGroteskSH-Med.woff2') format('woff2');
+}
+
+:root { --black: #0b0b0b; --white: #ffffff; --gray: #efefef; --muted: #6e6e6e; }
+
+* { box-sizing: border-box; }
+body { margin: 0; font-family: 'EuropaGroteskSH', system-ui, Arial, sans-serif; color: var(--black); background: var(--white); }
+
+.section { padding: 88px 0; }
+.section-title { font-weight: 800; letter-spacing: -0.02em; }
+.text-muted-90 { color: var(--muted) !important; }
+
+/* HERO */
+.hero-bg { position: relative; min-height: 88vh; overflow: hidden; }
+.hero-grid { position:absolute; inset:0; display:grid; grid-template-columns: repeat(4, 1fr); }
+.hero-col { background-position:center; background-size:cover; filter: grayscale(100%); }
+.hero-overlay { position:absolute; inset:0; background: rgba(0,0,0,.45); }
+.hero-content { position:relative; z-index:1; color:#fff; text-align:center; padding-top: 22vh; }
+.hero-title { font-weight: 800; font-size: clamp(32px, 5.4vw, 64px); line-height:1.1; letter-spacing:-0.02em; }
+.hero-sub { opacity:.95; }
+
+/* CARDS */
+.card-soft { background:#f6f6f6; border-radius:16px; padding:28px; }
+.icon-circle { width:64px; height:64px; border-radius:50%; background:#e9e9e9; display:flex; align-items:center; justify-content:center; margin:0 auto 12px; color:#000; font-size:28px; }
+
+/* FEATURES */
+.feature-tile { background:#fff; border:1px solid #e5e5e5; border-radius:18px; padding:24px; }
+.badge-pill { border-radius:999px; }
+
+/* MEDIA */
+.img-shadow { box-shadow: 0 12px 40px rgba(0,0,0,.12); }
+.rounded-20 { border-radius: 20px !important; }
