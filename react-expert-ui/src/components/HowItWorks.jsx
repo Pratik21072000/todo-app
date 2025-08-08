@@ -8,7 +8,7 @@ const items = [
 
 export default function HowItWorks() {
   return (
-    <section className="section bg-light">
+    <section className="section" style={{background:'#000'}}>
       <div className="container">
         <h2 className="section-title display-5 text-center mb-5">How it works for customers</h2>
         <div className="row g-4">
@@ -16,7 +16,7 @@ export default function HowItWorks() {
             <div className="col-md-4" key={it.title}>
               <div className="how-card text-center h-100">
                 <div className="icon-circle mb-3">{it.icon}</div>
-                <h5 className="fw-bold mb-2">{it.title}</h5>
+                <h5 className="mb-2">{it.title}</h5>
                 <p className="mb-0 text-muted-90 small">{it.text}</p>
               </div>
             </div>
