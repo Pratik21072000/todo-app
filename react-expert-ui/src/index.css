@@ -35,3 +35,9 @@ body { margin: 0; font-family: 'EuropaGroteskSH', system-ui, Arial, sans-serif; 
 /* MEDIA */
 .img-shadow { box-shadow: 0 12px 40px rgba(0,0,0,.12); }
 .rounded-20 { border-radius: 20px !important; }
+
+/* START EARNING mocks */
+.mock-photo { position: relative; border-radius: 24px; overflow: hidden; background-position: center; background-size: cover; min-height: 320px; }
+.overlay-card { position: absolute; right: 24px; bottom: 24px; width: 56%; background:#fff; border-radius: 16px; box-shadow: 0 18px 60px rgba(0,0,0,.2); padding: 16px; }
+.overlay-schedule { position: absolute; right: 16px; bottom: 16px; background:#0b0b0b; color:#fff; border-radius: 14px; padding: 14px 16px; box-shadow: 0 16px 50px rgba(0,0,0,.25); }
+.overlay-schedule .dot { display:inline-block; width:10px; height:10px; border-radius:50%; background:#fff; opacity:.3; margin-right:4px; }
