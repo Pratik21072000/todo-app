@@ -12,7 +12,7 @@ export default function StartEarning() {
               We will build your profile page for you. Just send us your existing profile photo and we’ll do the rest.
             </p>
           </div>
-          <div className="col-lg-6">
+          <div className="col-lg-6 position-relative">
             <div className="overlap-wrap d-flex justify-content-center">
               <div className="mock-photo mock-photo-portrait img-shadow" style={{ backgroundImage: "url('https://images.unsplash.com/photo-1544005313-94ddf0286df2?q=80&w=900&auto=format&fit=crop')" }}>
                 <div className="overlay-card">
@@ -26,14 +26,19 @@ export default function StartEarning() {
                   <div className="bg-black rounded-3 p-2 small text-muted-90 border border-1 border-secondary">Today • 3:00 PM – 3:30 PM</div>
                 </div>
               </div>
-              <div className="mini-img mini-big mini-center-right" style={{ backgroundImage: "url('https://images.unsplash.com/photo-1521579771033-2305f7a26d3b?q=80&w=600&auto=format&fit=crop')" }} />
+              <img
+                src="https://images.unsplash.com/photo-1521579771033-2305f7a26d3b?q=80&w=800&auto=format&fit=crop"
+                alt="overlap"
+                className="mini-big"
+                style={{ position:'absolute', right:'-32px', top:'50%', transform:'translateY(-50%)', border:'1px solid #222', borderRadius:8, boxShadow:'0 16px 40px rgba(0,0,0,.65)' }}
+              />
             </div>
           </div>
         </div>
 
         {/* Row 2: portrait image left with schedule overlay + one big overlap, text right */}
         <div className="row align-items-center g-5">
-          <div className="col-lg-6 order-lg-1 order-2">
+          <div className="col-lg-6 order-lg-1 order-2 position-relative">
             <div className="overlap-wrap d-flex justify-content-center">
               <div className="mock-photo mock-photo-portrait img-shadow" style={{ backgroundImage: "url('https://images.unsplash.com/photo-1512621776951-a57141f2eefd?q=80&w=900&auto=format&fit=crop')" }}>
                 <div className="overlay-schedule small">
@@ -42,7 +47,12 @@ export default function StartEarning() {
                   <div className="opacity-75">Repeat every Tuesday?</div>
                 </div>
               </div>
-              <div className="mini-img mini-big mini-center-left" style={{ backgroundImage: "url('https://images.unsplash.com/photo-1478147427282-58a87a120781?q=80&w=600&auto=format&fit=crop')" }} />
+              <img
+                src="https://images.unsplash.com/photo-1478147427282-58a87a120781?q=80&w=800&auto=format&fit=crop"
+                alt="overlap"
+                className="mini-big"
+                style={{ position:'absolute', left:'-28px', top:'50%', transform:'translateY(-50%)', border:'1px solid #222', borderRadius:8, boxShadow:'0 16px 40px rgba(0,0,0,.65)' }}
+              />
             </div>
           </div>
           <div className="col-lg-6 order-lg-2 order-1">

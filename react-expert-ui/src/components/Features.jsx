@@ -7,7 +7,7 @@ export default function Features() {
         <h2 className="section-title display-5 text-center mb-5">Features to make your life easy</h2>
 
         <div className="row g-4 align-items-stretch mb-4">
-          <div className="col-lg-5">
+          <div className="col-lg-4">
             <div className="feature-tile h-100 d-flex flex-column">
               <p className="mb-3">Available Session Lengths</p>
               <div className="mb-4">
@@ -18,7 +18,7 @@ export default function Features() {
               <img className="img-fluid rounded-20 img-shadow mt-auto" src="https://placehold.co/640x200/222/FFF?text=1.5hr+2hr+2.5hr+3hr" alt="session lengths" />
             </div>
           </div>
-          <div className="col-lg-3">
+          <div className="col-lg-4">
             <div className="feature-tile h-100 d-flex align-items-center justify-content-between">
               <div className="d-flex align-items-center">
                 <div className="me-3">
@@ -42,11 +42,11 @@ export default function Features() {
         </div>
 
         <div className="row g-4 align-items-start">
-          <div className="col-lg-5">
+          <div className="col-lg-4">
             <h5 className="mb-2">Offer multiple call durations</h5>
             <p className="text-muted-90 small mb-0" style={{fontSize:'0.95rem'}}>Pick & choose which call durations make sense for you. Offer sessions ranging from 15 min to 3 hours</p>
           </div>
-          <div className="col-lg-3">
+          <div className="col-lg-4">
             <h5 className="mb-2">Sync with your calendar</h5>
             <p className="text-muted-90 small mb-0" style={{fontSize:'0.95rem'}}>Connect your google calendar & as you update it, Intro will block off those times</p>
           </div>
