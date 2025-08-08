@@ -10,14 +10,14 @@ export default function HowItWorks() {
   return (
     <section className="section bg-light">
       <div className="container">
-        <h2 className="display-6 fw-bold text-center mb-5">How it works for consumers</h2>
+        <h2 className="section-title display-5 text-center mb-5">How it works for consumers</h2>
         <div className="row g-4">
           {items.map((it) => (
             <div className="col-md-4" key={it.title}>
-              <div className="card h-100 border-0 card-soft text-center">
-                <div className="icon-circle">{it.icon}</div>
+              <div className="card h-100 border-0 card-soft text-center p-4">
+                <div className="icon-circle mb-2">{it.icon}</div>
                 <h5 className="fw-bold mb-2">{it.title}</h5>
-                <p className="mb-0 small">{it.text}</p>
+                <p className="mb-0 text-muted-90 small">{it.text}</p>
               </div>
             </div>
           ))}
