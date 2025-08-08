@@ -27,8 +27,8 @@ export default function StartEarning() {
                 </div>
               </div>
               <img
-                src="https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?q=80&w=800&auto=format&fit=crop"
-                alt="overlap"
+                src="https://images.unsplash.com/photo-1557800636-894a64c1696f?q=80&w=800&auto=format&fit=crop"
+                alt="calendar scheduling"
                 className="mini-big"
                 style={{ position:'absolute', right:'-32px', top:'50%', transform:'translateY(-50%)', border:'1px solid #222', borderRadius:8, boxShadow:'0 16px 40px rgba(0,0,0,.65)' }}
               />
@@ -48,8 +48,8 @@ export default function StartEarning() {
                 </div>
               </div>
               <img
-                src="https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?q=80&w=800&auto=format&fit=crop"
-                alt="overlap"
+                src="https://images.unsplash.com/photo-1587829741301-dc798b83add3?q=80&w=800&auto=format&fit=crop"
+                alt="video call session"
                 className="mini-big"
                 style={{ position:'absolute', left:'-28px', top:'50%', transform:'translateY(-50%)', border:'1px solid #222', borderRadius:8, boxShadow:'0 16px 40px rgba(0,0,0,.65)' }}
               />
