@@ -26,22 +26,29 @@ body { margin: 0; font-family: 'EuropaGroteskSH', system-ui, Arial, sans-serif; 
 .hero-content { position:relative; z-index:1; color:#fff; text-align:center; padding-top: 22vh; }
 .hero-title { font-weight: 400; font-size: clamp(32px, 5.4vw, 64px); line-height:1.1; letter-spacing:-0.02em; }
 .hero-sub { opacity:.95; }
+.btn-flat { border-radius: 0 !important; }
 
 /* CARDS */
-.card-soft { background:#141414; border-radius:16px; padding:28px; border: 1px solid #232323; }
+.card-soft { background:#141414; border-radius:8px; padding:28px; border: 1px solid #232323; }
 .icon-circle { width:72px; height:72px; border-radius:50%; background:transparent; border:1px solid #3a3a3a; display:flex; align-items:center; justify-content:center; margin:0 auto 12px; color:#fff; font-size:30px; }
-.how-card { background:#141414; border:1px solid #232323; border-radius:20px; padding:40px 28px; }
+.how-card { background:#141414; border:1px solid #232323; border-radius:10px; padding:40px 28px; }
 
 /* FEATURES */
-.feature-tile { background:#101010; border:1px solid #222; border-radius:18px; padding:24px; }
+.feature-tile { background:#101010; border:1px solid #222; border-radius:8px; padding:24px; }
 .badge-pill { border-radius:999px; }
 
 /* MEDIA */
 .img-shadow { box-shadow: 0 12px 40px rgba(0,0,0,.6); }
-.rounded-20 { border-radius: 20px !important; }
+.rounded-20 { border-radius: 8px !important; }
 
 /* START EARNING mocks */
-.mock-photo { position: relative; border-radius: 24px; overflow: hidden; background-position: center; background-size: cover; min-height: 320px; }
-.overlay-card { position: absolute; right: 24px; bottom: 24px; width: 56%; background:#0f0f0f; color:#fff; border:1px solid #222; border-radius: 16px; box-shadow: 0 18px 60px rgba(0,0,0,.5); padding: 16px; }
-.overlay-schedule { position: absolute; right: 16px; bottom: 16px; background:#0b0b0b; color:#fff; border:1px solid #222; border-radius: 14px; padding: 14px 16px; box-shadow: 0 16px 50px rgba(0,0,0,.6); }
+.mock-photo { position: relative; border-radius: 10px; overflow: visible; background-position: center; background-size: cover; min-height: 360px; }
+.overlay-card { position: absolute; right: 24px; bottom: 24px; width: 50%; background:#0f0f0f; color:#fff; border:1px solid #222; border-radius: 8px; box-shadow: 0 18px 60px rgba(0,0,0,.5); padding: 16px; }
+.overlay-schedule { position: absolute; right: 16px; bottom: 16px; background:#0b0b0b; color:#fff; border:1px solid #222; border-radius: 8px; padding: 14px 16px; box-shadow: 0 16px 50px rgba(0,0,0,.6); }
 .overlay-schedule .dot { display:inline-block; width:10px; height:10px; border-radius:50%; background:#fff; opacity:.3; margin-right:4px; }
+
+/* Overlap minis around big image */
+.overlap-wrap { position: relative; overflow: visible; }
+.mini-img { position: absolute; width: 180px; height: 120px; background-position: center; background-size: cover; border:1px solid #222; border-radius: 8px; box-shadow: 0 12px 30px rgba(0,0,0,.6); }
+.mini-top-left { top: -24px; left: -24px; transform: rotate(-3deg); }
+.mini-bottom-right { bottom: -28px; right: -28px; transform: rotate(2deg); }

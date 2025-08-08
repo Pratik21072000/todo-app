@@ -4,7 +4,7 @@ export default function StartEarning() {
   return (
     <section className="section bg-black">
       <div className="container">
-        {/* Row 1: text left, image right with overlay card */}
+        {/* Row 1: text left, image right with overlay card and overlapping minis */}
         <div className="row align-items-center g-5 mb-5 pb-3">
           <div className="col-lg-6">
             <h2 className="section-title display-5 mb-3">Start earning, without the hassle</h2>
@@ -13,17 +13,21 @@ export default function StartEarning() {
             </p>
           </div>
           <div className="col-lg-6">
-            <div className="mock-photo img-shadow" style={{ backgroundImage: "url('https://images.unsplash.com/photo-1544005313-94ddf0286df2?q=80&w=900&auto=format&fit=crop')" }}>
-              <div className="overlay-card">
-                <div className="d-flex align-items-center mb-2">
-                  <div className="rounded-circle bg-light me-2" style={{ width: 36, height: 36 }} />
-                  <div>
-                    <div className="small">Simone H.</div>
-                    <small className="text-muted-90">Book a video call</small>
+            <div className="overlap-wrap">
+              <div className="mock-photo img-shadow" style={{ backgroundImage: "url('https://images.unsplash.com/photo-1544005313-94ddf0286df2?q=80&w=900&auto=format&fit=crop')" }}>
+                <div className="overlay-card">
+                  <div className="d-flex align-items-center mb-2">
+                    <div className="rounded-circle bg-light me-2" style={{ width: 36, height: 36 }} />
+                    <div>
+                      <div className="small">Simone H.</div>
+                      <small className="text-muted-90">Book a video call</small>
+                    </div>
                   </div>
+                  <div className="bg-black rounded-3 p-2 small text-muted-90 border border-1 border-secondary">Today • 3:00 PM – 3:30 PM</div>
                 </div>
-                <div className="bg-black rounded-3 p-2 small text-muted-90 border border-1 border-secondary">Today • 3:00 PM – 3:30 PM</div>
               </div>
+              <div className="mini-img mini-top-left" style={{ backgroundImage: "url('https://images.unsplash.com/photo-1521579771033-2305f7a26d3b?q=80&w=400&auto=format&fit=crop')" }} />
+              <div className="mini-img mini-bottom-right" style={{ backgroundImage: "url('https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=400&auto=format&fit=crop')" }} />
             </div>
           </div>
         </div>
@@ -31,12 +35,16 @@ export default function StartEarning() {
         {/* Row 2: image left with schedule overlay, text right */}
         <div className="row align-items-center g-5">
           <div className="col-lg-6 order-lg-1 order-2">
-            <div className="mock-photo img-shadow" style={{ backgroundImage: "url('https://images.unsplash.com/photo-1512621776951-a57141f2eefd?q=80&w=900&auto=format&fit=crop')" }}>
-              <div className="overlay-schedule small">
-                <div className="mb-2">Tuesday 3/19</div>
-                <div className="mb-1"><span className="dot"/><span className="dot"/><span className="dot"/><span className="dot"/><span className="dot"/></div>
-                <div className="opacity-75">Repeat every Tuesday?</div>
+            <div className="overlap-wrap">
+              <div className="mock-photo img-shadow" style={{ backgroundImage: "url('https://images.unsplash.com/photo-1512621776951-a57141f2eefd?q=80&w=900&auto=format&fit=crop')" }}>
+                <div className="overlay-schedule small">
+                  <div className="mb-2">Tuesday 3/19</div>
+                  <div className="mb-1"><span className="dot"/><span className="dot"/><span className="dot"/><span className="dot"/><span className="dot"/></div>
+                  <div className="opacity-75">Repeat every Tuesday?</div>
+                </div>
               </div>
+              <div className="mini-img mini-top-left" style={{ backgroundImage: "url('https://images.unsplash.com/photo-1478147427282-58a87a120781?q=80&w=400&auto=format&fit=crop')" }} />
+              <div className="mini-img mini-bottom-right" style={{ backgroundImage: "url('https://images.unsplash.com/photo-1481833761820-0509d3217039?q=80&w=400&auto=format&fit=crop')" }} />
             </div>
           </div>
           <div className="col-lg-6 order-lg-2 order-1">

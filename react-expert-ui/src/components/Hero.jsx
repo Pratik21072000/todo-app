@@ -22,7 +22,7 @@ export default function Hero() {
           Connect with people virtually, give
           <br className="d-none d-md-block" /> 1‑on‑1 advice, and earn up to $500k*
         </h1>
-        <button className="btn btn-light btn-lg px-4 py-3">Join as an Expert</button>
+        <button className="btn btn-light btn-lg px-4 py-3 btn-flat">Join as an Expert</button>
       </div>
     </header>
   )

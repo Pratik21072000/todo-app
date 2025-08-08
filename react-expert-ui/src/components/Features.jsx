@@ -29,12 +29,12 @@ export default function Features() {
                   <small className="text-muted-90">Connect</small>
                 </div>
               </div>
-              <button className="btn btn-light btn-sm px-3 text-dark">Connect</button>
+              <button className="btn btn-light btn-sm px-3 text-dark btn-flat">Connect</button>
             </div>
           </div>
           <div className="col-lg-4">
             <div className="feature-tile h-100 d-flex align-items-center justify-content-center">
-              <div className="px-3 py-2 rounded-20 bg-light text-dark text-center w-100">
+              <div className="px-3 py-2 rounded-20 bg-light text-dark text-center w-100" style={{borderRadius:8}}>
                 50% of proceeds will be donated to Baby2baby
               </div>
             </div>
